@@ -1,30 +1,31 @@
 {
-  "name": "unsplash",
-  "version": "1.0.0",
-  "description": "Unsplash image downloader",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/afzaalace/unsplash.git"
-  },
-  "bin": {
-    "unsplash": "bin/unsplash"
-  },
-  "author": "afzaalace",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/afzaalace/unsplash/issues"
-  },
-  "homepage": "https://github.com/afzaalace/unsplash",
-  "dependencies": {
-    "archiver": "^0.14.3",
-    "async": "^0.9.0",
-    "cheerio": "^0.19.0",
-    "commander": "^2.8.1",
-    "prettysize": "0.0.3",
-    "request": "^2.55.0"
-  }
+    "name": "unsplash",
+    "version": "1.0.0",
+    "description": "Unsplash image downloader",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    keywords: "unsplash,downloader",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/afzaalace/unsplash.git"
+    },
+    "bin": {
+        "unsplash": "bin/unsplash"
+    },
+    "author": "afzaalace",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/afzaalace/unsplash/issues"
+    },
+    "homepage": "https://github.com/afzaalace/unsplash",
+    "dependencies": {
+        "archiver": "^0.14.3",
+        "async": "^0.9.0",
+        "cheerio": "^0.19.0",
+        "commander": "^2.8.1",
+        "prettysize": "0.0.3",
+        "request": "^2.55.0"
+    }
 }
