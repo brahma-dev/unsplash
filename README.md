@@ -4,7 +4,7 @@ An Unsplash auto-downloader and sync tool for node.js.
 
 ## Introduction
 
-Hackers way of grabbing all of the images at Unplash.com quickly, easily, and for free.
+Hacker's way of grabbing all of the images at Unsplash.com quickly, easily, and for free.
 
 ## Install
 
@@ -26,7 +26,7 @@ The `unsplash` command accepts two options and a path to directory:
 
 * -h, --help		|| output usage information .
 * -f, --featured 	|| download only featured images.
-* <folder> defaults to current directory
+* [folder] defaults to current directory
 
 ### To save images to your current folder
 
