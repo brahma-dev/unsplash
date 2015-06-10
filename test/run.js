@@ -1,2 +1,4 @@
-var unsplash = require(__dirname + "/../lib/");
-unsplash.download(__dirname + "/wallpapers", true);
+/*jshint node: true*/
+var path = require('path');
+var unsplash = require(path.join(__dirname, "/../lib/"));
+unsplash(path.join(__dirname, "/wallpapers"), true);
