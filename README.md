@@ -53,7 +53,7 @@ Unsplash is also available as a Node.js module.
 
 ```
 var unsplash = require('unsplash');
-unsplash.download(<string:path>,[boolean: onlyfeatured])
+unsplash(<string:path>,[boolean: onlyfeatured])
 ```
 
 
