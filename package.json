@@ -1,6 +1,6 @@
 {
   "name": "unsplash",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Unsplash image downloader",
   "main": "lib/index.js",
   "scripts": {
@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/afzaalace/unsplash",
   "dependencies": {
+    "awesome-progress": "0.0.53",
     "commander": "^2.8.1",
-    "progress": "^1.1.8",
     "request": "^2.57.0",
     "x-ray": "^2.0.0"
   }
