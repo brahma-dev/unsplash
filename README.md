@@ -48,6 +48,10 @@ unsplash wallpapers/
 
 This will tell the program to save all images to the wallpapers directory. It will not download or overwrite any existing files.
 
+### Cache
+
+The scraped image URLs are saved in a json file `images.json` inside the same folder. This is to avoiding rescraping if the process fails. To force a rescrape delete the file before running unsplash.
+
 ### Use as a Node.js module.
 Unsplash is also available as a Node.js module.
 
