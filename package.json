@@ -30,6 +30,6 @@
     "queue": "3.1.0",
     "request": "2.67.0",
     "smooth-progress": "1.0.4",
-    "x-ray": "2.0.0"
+    "x-ray": "2.0.3"
   }
 }
